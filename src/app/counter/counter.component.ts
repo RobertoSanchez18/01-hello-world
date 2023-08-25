@@ -15,12 +15,20 @@ export class CounterComponent {
   }
 
   decrease() {
-    this.counter--;
+    if(this.counter > 0) {
+      this.counter--;
+    }
+    
   }
 
   inactiveDecrease() {
     this.activeDecrease = !this.activeDecrease;
   }
 
+  reset() {
+    this.counter = 0;
+  }
+
+  
 
 }

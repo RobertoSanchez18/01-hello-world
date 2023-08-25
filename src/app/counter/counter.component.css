@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-contador {
+    width: 400px;
+    height: 350px;
+    margin: 120px auto;
+    text-align: center
+}
+
+.container-contador span {
+    font-size: 20px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    margin: 10px 20px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+
+.btn-increase {
+    background-color: #2dd36f;
+}
+
+.btn-decrease {
+    background-color: #eb445a;
+}
+
+.btn-decrease:disabled {
+    background-color: #c0c0c0;
+    border: #c0c0c0;
+}
